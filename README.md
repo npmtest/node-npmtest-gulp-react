@@ -1,6 +1,6 @@
 # npmtest-gulp-react
 
-#### test coverage for  [gulp-react (v3.1.0)](https://github.com/sindresorhus/gulp-react)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-react.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-react)
+#### basic test coverage for  [gulp-react (v3.1.0)](https://github.com/sindresorhus/gulp-react)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-react.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-react) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-react.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-react)
 
 #### Precompile Facebook React JSX templates into JavaScript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-react/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-react/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-react/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-react/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-react/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-react/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-react/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-react/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-react/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-react/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-react/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
     "scripts": {
         "test": "mocha"
     },
-    "version": "3.1.0"
+    "version": "3.1.0",
+    "bin": {}
 }
 ```
 
